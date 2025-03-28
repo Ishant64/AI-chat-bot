@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI ChatBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="chat-container">
+      <!-- Header with Model Selector -->
+      <div id="header">
+        <h1>AI Chatbot By Ishant !</h1>
+        <select id="model-selector">
+          <option value="gpt">GPT</option>
+          <option value="deepseek-chat">DeepSeek Chat</option>
+          <option value="deepseek-reasoner">DeepSeek Reasoner</option>
+        </select>
+      </div>
+      <!-- Chatbox -->
+      <div id="chatbox"></div>
+      <!-- Input Area -->
+
+      <div id="input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message here..."
+          autocomplete="off"
+        />
+        <button id="voice-button">🎤 Voice</button>
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+
+    <script src="https://js.puter.com/v2/"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
